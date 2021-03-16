@@ -1,0 +1,68 @@
+/* Table sorter css */
+
+.tablesorter-pager .btn-group-sm .btn {
+    font-size: 1.2em;
+    /* make pager arrows more visible */
+}
+
+
+/* Circle buttons */
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+
+/* Create comandas */
+
+.alimento_added {
+    font-size: 1rem;
+    background-color: rgba(90, 217, 255, 0.514);
+    border-bottom: 1px solid black;
+}
+
+.carrito_row {
+    height: 80vh;
+}
+
+#carrito {
+    height: 100%;
+}
+
+
+/* Hide arrows Inputs Number */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
